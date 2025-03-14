@@ -12,6 +12,7 @@
     "ai:serve": "node ./scripts/ai.js"
   },
   "dependencies": {
+    "simple-mind-map": "0.13.1-fix.2",
     "@toast-ui/editor": "^3.1.5",
     "axios": "^1.7.9",
     "codemirror": "^5.65.16",
