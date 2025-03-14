@@ -5,14 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build && node ../copy.js",
-    "lint": "vue-cli-service lint",
+    "lint": "vue-cli-service eslint ../../simple-mind-map/src/",
     "buildLibrary": "node ./scripts/updateVersion.js && vue-cli-service build --mode library --target lib --name simpleMindMap ../simple-mind-map/full.js --dest ../simple-mind-map/dist && esbuild ../simple-mind-map/full.js --bundle --external:buffer --format=esm --outfile=../simple-mind-map/dist/simpleMindMap.esm.js && esbuild ../simple-mind-map/full.js --bundle --minify --external:buffer --format=esm --outfile=../simple-mind-map/dist/simpleMindMap.esm.min.js",
-    "format": "prettier --write src/* src/*/* src/*/*/* src/*/*/*/*",
+    "format": "prettier --write ../../simple-mind-map/src/* ../../simple-mind-map/src/*/* ../../simple-mind-map/src/*/*/* ../../simple-mind-map/src/*/*/*/*",
     "createNodeImageList": "node ./scripts/createNodeImageList.js",
-    "ai:serve": "node ./scripts/ai.js"
+    "ai:serve": "node ../../simple-mind-map/scripts/ai.js"
   },
   "dependencies": {
-    "simple-mind-map": "0.13.1-fix.2",
     "@toast-ui/editor": "^3.1.5",
     "axios": "^1.7.9",
     "codemirror": "^5.65.16",
