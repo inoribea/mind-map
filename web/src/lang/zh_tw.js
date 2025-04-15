@@ -63,6 +63,7 @@ export default {
     isShowScrollbar: '顯示捲軸',
     isUseHandDrawnLikeStyle: '使用手繪風格',
     isUseMomentum: '是否開啓拖動畫布的動量效果',
+    openBlankMode: '是否開啓演示模式的填空功能',
     watermark: '浮水印',
     showWatermark: '顯示浮水印',
     onlyExport: '僅在匯出時顯示',
@@ -192,7 +193,10 @@ export default {
     fileContentError: '檔案內容有誤',
     importSuccess: '匯入成功',
     fileParsingFailed: '檔案解析失敗',
-    xmindCanvasSelectDialogTitle: '選擇要匯入的畫布'
+    xmindCanvasSelectDialogTitle: '選擇要匯入的畫布',
+    mdImportDialogTitle: '粘貼Markdown內容導入',
+    mdPlaceholder: '請輸入Markdown格式的內容',
+    mdEmptyTip: '內容不能爲空'
   },
   navigatorToolbar: {
     openMiniMap: '開啟小地圖',
